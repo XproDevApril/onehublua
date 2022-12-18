@@ -1,0 +1,155 @@
+--[[
+Credits: TheAprilGamer
+Youtube: TheAprilGamer
+Discord: AprilsitoOfficial#3703
+Was programmed by: TheAprilGamer
+Hub NAME: ---
+Script NAME: King Legacy PAID
+Game: KingLegacy
+Game Support: Only King Legacy
+]]
+local LibraryHOME = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = LibraryHOME.CreateLib("KingLegacy Script PAID>>                                      version: PAID", "BloodTheme")
+
+if game.PlaceId == 4520749081 then
+
+--HOME SECTION
+local TabHome = Window:NewTab("HOME")
+local SectionHome = TabHome:NewSection("WELCOME USER")
+    SectionHome:NewButton("SCRIPT GAMES COMMUNITY", "Join discord for more scripts", function()
+end)
+SectionHome:NewButton("Discord Link", "Join .gg/4n5P5DHCUB", function() 
+ end)
+SectionHome:NewButton("Youtube Credits", "TheAprilGamer", function()
+end)
+SectionHome:NewButton("TheAprilGamer", "Subscribe is free!", function()
+end)
+local SeccionHome = TabHome:NewSection("THANKS FOR USING")
+SeccionHome:NewButton("King Legacy SCRIPT version PAID", "Thanks For Using")
+
+
+--SUPPORTED GAMES
+local TabGames = Window:NewTab("SUPPORTED GAMES")
+local SectionGames = TabGames:NewSection("SUPPORTED GAMES HUB")
+    SectionGames:NewButton("King Legacy", "this game is on the hub", function()
+end)  
+
+    SectionGames:NewButton("Coming soon...", "Coming soon...", function()
+end)
+--SCRIPT MAIN
+local TabMain = Window:NewTab("KING LEGACY")
+local SectionScript = TabMain:NewSection("SCRIPT SECTION / KING LEGACY")
+ SectionScript:NewButton("SCRIPT>> Coming soon... ", "COMING SOON.....", function()
+ end)
+
+ SectionScript:NewButton("SCRIPT>> KingLegacy OPv1", "KING LEGACY/Join discord for more scripts", function()
+     loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/KingPiece.lua"))()'))()
+ end)
+
+ SectionScript:NewButton("SCRIPT>> KingLegacy OPv2", "KING LEGACY/Join discord for more scripts", function()
+     loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/KL")()
+ end)
+
+ SectionScript:NewButton("SCRIPT>> Coming soon... ", "COMING SOON.....", function()
+ end)
+ SectionScript:NewButton("SCRIPT>> Coming soon...", "COMING SOON.....", function()
+end)
+--CREDITS 
+local TabCredits = Window:NewTab("CREDITS")
+local SectionCredits = TabCredits:NewSection("CREDITS")
+SectionCredits:NewButton("YouTube", "TheAprilGamer", function()
+end)
+
+SectionCredits:NewButton("Discord", "AprilsitoOfficial#3703", function()
+end)
+
+SectionCredits:NewButton("Discord Community", "Script Games Community", function()
+end)
+
+SectionCredits:NewButton("Discord Link", ".gg/4n5P5DHCUB", function()
+    end)
+
+SectionCredits:NewButton("Discord Copy", "the discord has been copied to your clipboard", function()
+setclipboard(".gg/4n5P5DHCUB")
+end)
+--INFO HUB
+local TabInfo = Window:NewTab("HUB INFO")
+local SeccionInfo = TabInfo:NewSection("HUB INFO")
+SeccionInfo:NewButton("HUB GAME", "KingLegacy")
+local SeccionInfo = TabInfo:NewSection("HUB VERSION")
+SeccionInfo:NewButton("HUB VERSION", "v0.01")
+local SeccionInfo = TabInfo:NewSection("HUB NAME")
+SeccionInfo:NewButton("HUB NAME", "KL PREMIUM HUB")
+
+--CONFIG HUB
+local TabConfig = Window:NewTab("HUB CONFIG BETA")
+local SectionConfig = TabConfig:NewSection("HUB CONFIGURATION - BETA")
+SectionConfig:NewColorPicker("Color Text", "Color Info", Color3.fromRGB(0,0,0), function(color)
+    print(color)
+end)
+local colors = {
+    SchemeColor = Color3.fromRGB(0,255,255),
+    Background = Color3.fromRGB(0, 0, 0),
+    Header = Color3.fromRGB(0, 0, 0),
+    TextColor = Color3.fromRGB(255,255,255),
+    ElementColor = Color3.fromRGB(20, 20, 20)
+}
+for theme, color in pairs(themes) do
+    SectionConfig:NewColorPicker(theme, "Change your "..theme, color, function(color3)
+        LibraryHOME:ChangeColor(theme, color3)
+    end)
+end
+
+local Window = LibraryHOME.CreateLib("KL PREMIUM HUB>>                     ScriptGamesCommunity v0.01", colors)
+
+
+end
+
+--HOME NO VALID
+local TabGames = Window:NewTab("HOME")
+local SectionGames = TabGames:NewSection("WELCOME USER")
+SectionGames:NewButton("THIS GAME IS NOT VALID", "this game only accepts KING LEGACY, play it now", function()
+end)
+
+--SUPPORTED GAMES
+local TabGames = Window:NewTab("SUPPORTED GAMES")
+local SectionGames = TabGames:NewSection("SUPPORTED GAMES HUB")
+    SectionGames:NewButton("King Legacy", "this game is on the hub, please enter it", function()
+end)  
+
+    SectionGames:NewButton("N/A", "N/A", function()
+    end)
+--CREDITS 
+local TabCredits = Window:NewTab("CREDITS")
+local SectionCredits = TabCredits:NewSection("CREDITS")
+SectionCredits:NewButton("YouTube", "TheAprilGamer", function()
+end)
+
+SectionCredits:NewButton("Discord", "AprilsitoOfficial#3703", function()
+end)
+
+SectionCredits:NewButton("Discord Community", "Script Games Community", function()
+end)
+
+SectionCredits:NewButton("Discord Link", ".gg/4n5P5DHCUB", function()
+end)
+
+--INFO HUB
+local TabInfo = Window:NewTab("HUB INFO")
+local SeccionInfo = TabInfo:NewSection("HUB INFO")
+SeccionInfo:NewButton("HUB GAME", "KingLegacy")
+local SeccionInfo = TabInfo:NewSection("HUB VERSION")
+SeccionInfo:NewButton("HUB VERSION", "v0.01")
+local SeccionInfo = TabInfo:NewSection("HUB NAME")
+SeccionInfo:NewButton("HUB NAME", "KL PREMIUM HUB")
+
+--DISCORD
+local TabDc = Window:NewTab("DISCORD")
+local SectionDiscord = TabDc:NewSection("DISCORD INFO")
+SectionDiscord:NewButton("DISCORD LINK", ".gg/4n5P5DHCUB", function()
+end)
+SectionDiscord:NewButton("DISCORD USERS", "6000+ users JOIN NOW!", function()
+end)
+SectionDiscord:NewButton("DISCORD COPY", "the discord has been copied to your clipboard", function()
+setclipboard(".gg/4n5P5DHCUB")
+end)
