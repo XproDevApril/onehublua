@@ -42,8 +42,8 @@ local SectionScript = TabMain:NewSection("SCRIPT SECTION / KING LEGACY")
  SectionScript:NewButton("SCRIPT>> Coming soon... ", "COMING SOON.....", function()
  end)
 
- SectionScript:NewButton("SCRIPT>> KingLegacy OPv1", "KING LEGACY/Join discord for more scripts", function()
-     loadstring(game:HttpGet('loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/KingPiece.lua"))()'))()
+ SectionScript:NewButton("SCRIPT>> Coming soon...", "Coming soon...", function()
+    
  end)
 
  SectionScript:NewButton("SCRIPT>> KingLegacy OPv2", "KING LEGACY/Join discord for more scripts", function()
@@ -54,6 +54,18 @@ local SectionScript = TabMain:NewSection("SCRIPT SECTION / KING LEGACY")
  end)
  SectionScript:NewButton("SCRIPT>> Coming soon...", "COMING SOON.....", function()
 end)
+
+--RECOMMEND MAIN
+local TabRecomend = Window:NewTab("RECOMMENDED")
+local SectionReco = TabRecomend:NewSection("UNIVERSAL SCRIPT")
+SectionReco:NewButton("FPS BOOST>>>             UNLOCKER", "use this function if you have lag", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/XproDevApril/fpsboost22/main/fpss")()
+end)
+SectionReco:NewButton("COMING SOON...", "COMING SOON...", function()
+end)
+SectionReco:NewButton("COMING SOON...", "COMING SOON...", function()
+end)
+
 --CREDITS 
 local TabCredits = Window:NewTab("CREDITS")
 local SectionCredits = TabCredits:NewSection("CREDITS")
