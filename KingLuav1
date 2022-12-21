@@ -131,6 +131,20 @@ end)
 
     SectionGames:NewButton("N/A", "N/A", function()
     end)
+
+
+--UNIVERSAL SCRIPT
+
+local TabUniver = Window:NewTab("RECOMMENDED")
+local SectionUni = TabUniver:NewSection("UNIVERSAL SCRIPT")
+SectionUni:NewButton("FPS BOOST>>>             UNLOCKER", "use this function if you have lag", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/XproDevApril/fpsboost22/main/fpss")()
+end)
+SectionReco:NewButton("COMING SOON...", "COMING SOON...", function()
+end)
+SectionReco:NewButton("COMING SOON...", "COMING SOON...", function()
+end)
+
 --CREDITS 
 local TabCredits = Window:NewTab("CREDITS")
 local SectionCredits = TabCredits:NewSection("CREDITS")
@@ -165,3 +179,4 @@ end)
 SectionDiscord:NewButton("DISCORD COPY", "the discord has been copied to your clipboard", function()
 setclipboard(".gg/4n5P5DHCUB")
 end)
+
