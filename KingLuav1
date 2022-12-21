@@ -9,7 +9,7 @@ Game: KingLegacy
 Game Support: Only King Legacy
 ]]
 local LibraryHOME = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = LibraryHOME.CreateLib("LuaKing❃                           status:ON Version: 1.0", "Synapse")
+local Window = LibraryHOME.CreateLib("LuaKing                           status:ON Version: 1.0", "Synapse")
 
 if game.PlaceId == 4520749081 then
 
@@ -42,11 +42,11 @@ local SectionScript = TabMain:NewSection("SCRIPT SECTION / KING LEGACY")
  SectionScript:NewButton("SCRIPT>> Coming soon... ", "COMING SOON.....", function()
  end)
 
- SectionScript:NewButton("SCRIPT>> Coming soon...", "Coming soon...", function()
-    
+ SectionScript:NewButton("SCRIPT>> KingLegacy ", "KING LEGACY/Join discord for more scripts", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Strikehubv2z/StormSKz/main/All_in_one"))()
  end)
 
- SectionScript:NewButton("SCRIPT>> KingLegacy OPv2", "KING LEGACY/Join discord for more scripts", function()
+ SectionScript:NewButton("SCRIPT>> KingLegacy ", "KING LEGACY/Join discord for more scripts", function()
      loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/KL")()
  end)
 
