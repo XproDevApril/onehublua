@@ -9,7 +9,7 @@ Game: KingLegacy
 Game Support: Only King Legacy
 ]]
 local LibraryHOME = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = LibraryHOME.CreateLib("LuaKing                           status:ON Version: 1.01", "GrapeTheme")
+local Window = LibraryHOME.CreateLib("LuaKing                           status:ON Version: 1.02", "Synapse")
 
 if game.PlaceId == 4520749081 then
 
