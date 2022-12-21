@@ -4,12 +4,12 @@ Youtube: TheAprilGamer
 Discord: AprilsitoOfficial#3703
 Was programmed by: TheAprilGamer
 Hub NAME: ---
-Script NAME: King Legacy PAID
+Script NAME: 【LuaKing】
 Game: KingLegacy
 Game Support: Only King Legacy
 ]]
 local LibraryHOME = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = LibraryHOME.CreateLib("KingLegacy Script PAID>>                                      version: PAID", "BloodTheme")
+local Window = LibraryHOME.CreateLib("LuaKing❃                           status:ON Version: 1.0", "Synapse")
 
 if game.PlaceId == 4520749081 then
 
@@ -179,4 +179,3 @@ end)
 SectionDiscord:NewButton("DISCORD COPY", "the discord has been copied to your clipboard", function()
 setclipboard(".gg/4n5P5DHCUB")
 end)
-
